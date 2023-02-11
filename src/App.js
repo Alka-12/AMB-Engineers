@@ -8,7 +8,6 @@ import Products from './Pages/Products';
 import About from './Pages/About';
 import NavBar from './Components/Navbar';
 import Services from './Pages/Services';
-
 function App() {
   return (
     <>
@@ -29,6 +28,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Clients" element={<Clients />} />
         <Route path="/Services" element={<Services />} />
+
       </Routes>
     </>
   );

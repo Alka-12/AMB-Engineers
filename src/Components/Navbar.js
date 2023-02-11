@@ -15,7 +15,7 @@ const Navbar = () => {
                         alt=""
                         src={mainLogo}
                         width="140"
-                        height="90"
+                        height="65"
                         className="d-inline-block align-top"
                     />{' '}
                 </div>
@@ -37,9 +37,6 @@ const Navbar = () => {
                         </li>
                         <li>
                             <NavLink to="/Contact">Contact Us</NavLink>
-                        </li>
-                        <li>
-                            <NavLink to="/Clients">Clients</NavLink>
                         </li>
                         <li>
                             <NavLink to="/Services">Services</NavLink>
